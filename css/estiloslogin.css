@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(90deg, #1d406d, #3f67a9);
+
+}
+
+.contenedor{
+  background: whitesmoke;
+  margin: 2% 2% 4% 2%;
+  width: 100%;
+  500px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  padding-top: 2%;
+  text-transform: uppercase;
+  color: #009DA8;
+  
+}
+
+form {
+  font-family: "Montserrat", sans-serif;
+  width: 35%;
+  height: 50%;
+  background: #e8eee3;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+/* label {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+} */
+
+input,
+textarea {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+textarea {
+  resize: vertical;
+  max-height: 300px;
+  min-height: 100px;
+}
+  
+  /* input:focus,
+  textarea:focus {
+    border: 1px solid #1668c4;
+  }
+  
+  input[type="submit"] {
+    margin-bottom: 0;
+    background: #1668c4;
+    color: whitesmoke;
+    border: none;
+  }
+  
+  input[type="submit"]:hover {
+    background: #4a88f4;
+    cursor: pointer;
+  }
+   */
+  /* .btn-primary {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    margin: 3% auto;
+    text-align: center;
+    width: 80px;
+    max-width: 100%;
+    padding: 10px;
+    font-weight: 580;
+    font-size: 14px;
+    color: #5e5449;
+    background-color: #e0d1b6;
+    border-radius: 6px;
+    border: 2px solid #6d6049;
+  }
+  
+  /*efecto hover de los botones*/
+  /* .btn-primary:hover {
+    color: #5a7f7c;
+    background-color: whitesmoke;
+  } */
+   
+  .texto-registrate {
+      background: whitesmoke;
+      text-align: center;
+      font-size: 20px;    
+}
+
+/*BOTON VOLVER*/
+
+.btn-default {
+	background-color: #FFFFFF60;
+	font-family: "Montserrat", sans-serif;
+	float: right;
+	margin:-4% 7% 2% 2%;
+	
+	color: black ;
+   
+	padding: 14px 35px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-color: #CCC	;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	background-color: white;
+	transition: all .6s;
+	color: #1e99d5;
+	display: inline-block;
+	padding: 16px 41px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+i{
+  float: right;
+}

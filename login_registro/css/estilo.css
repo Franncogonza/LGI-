@@ -1,0 +1,75 @@
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+}
+
+.sidebar-heading {
+  text-transform: uppercase;
+}
+
+/*
+ * Content
+ */
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+a:link{
+	color: #282828 !important
+}
+a:visited{
+	color: #282828 !important
+}
+a:hover{
+	color: #F89414 !important
+}
+a:active{
+	color: #F89414 !important
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(248,148,20);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(248,148,20)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+.custom-toggler.navbar-toggler:hover {
+    border-color: rgb(255,255,255);
+    background-color: rgba(248,148,20)
+}
+.custom-toggler:hover .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-color: rgba(248,148,20)
+}
+.btn-primary.custom-btn {
+  background-color: #fff;
+  border-color: #F89414;
+  color: #F89414!important;
+}
+.btn-primary.custom-btn:hover
+{background-color:#F89414!important;
+color: #fff!important;
+}
+.textorange{
+  color:#F89414!important;
+}
+.body{
+  font-family: MontserratAlternates-Medium!important;
+}
+body h1,body h2, body h3, body h4, body h5, body h6 {
+  font-family:'MontserratAlternates-black',sans-serif;
+}
