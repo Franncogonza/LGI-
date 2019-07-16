@@ -10,7 +10,8 @@
 </head>
 <body>
 <div class="contenedor">
-    <h1 class="titulo">Inicar Sesion </h1>
+    <h1 class="titulo">Iniciar Sesion </h1>
+    <a href="http://localhost/Lgi/index.php" class="btn btn-default"><span class="icon-user"> volver</a></span> 
 <hr class="border">
 
 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" class="formulario" name="login">

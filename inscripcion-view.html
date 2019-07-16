@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de inscripción a curso</title>
+    <link rel="stylesheet" href="css\inscripcion.css">
+        
+</head>
+    
+    <body> 
+    <header>
+        <div class="logo">
+            <h1>
+                <center><h1>Punto Digital Funes</h1></center> 
+            </h1>
+        </div>
+        
+    </header>
+    <br><br><br><br>
+    <section>
+        <center>
+            <h1>¡Completá el formulario y forma parte de Punto Digital!</h1>
+            
+            <br><br><br><br><br>
+            <form action="inscripcion.php" method="POST">
+                <b><u>Nombre y Apellido:</u></b><br><br>
+                <input type="text" name="nombre" required><br><br>
+                <b><u>Curso:</u></b><br><br>
+                <input type="text" name="telefono"><br><br>
+                 <b><u>Coreo Electronico:</u></b><br><br>
+                <input type="text" name="correo" required><br><br>
+                <b><u>Dia de inscripción:</u></b><br><br>
+                <input type="date" name="dia" required><br><br>
+                <b><u>Horario de inscripción:</u></b><br><br>
+                <input type="time" name="hora" required> <br><br>
+    
+                <input type="submit" value="Enviar">
+                
+
+            </form>
+            <br><br><br><br>
+            <h1>Te esperamos con tu comprobante de inscripción.</h1>
+            <br><br><br><br><br><br><br><br>
+           
+         </center>
+    </section>
+    <a href="http://localhost/Lgi/login_registro/contenido.php" class="btn btn-default"><span class="icon-user"> VOLVER</a></span> 
+    
+    
+    
+    
+    <footer>
+        <div class="pie">
+            <center><p class="direccion">
+                 Copyright © 2019 // Punto Digital Funes //Avenida Rosario 1977 - Funes - Santa fe - Argentina
+            </p></center>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>

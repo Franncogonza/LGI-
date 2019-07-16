@@ -27,10 +27,10 @@
         height: 140vh;
         background-size: cover;
         background-position: center;
-  }
+  }}
     </style>
     <title>Punto Digital</title>
-
+    
   </head>
    
   <body>
@@ -38,7 +38,9 @@
 
    <!-- menu de navegacion -->
     <nav class="navbar fixed-top  flex-md-nowrap p-0 d-none d-xl-block col-sm-1">
-      <a class="navbar-brand col-sm-1 col-md-2 mr-0" href="#home">Punto Digital</a>
+      <a class="navbar-brand col-sm-1 col-md-2 mr-0" href="#home">Punto Digital</a> <br>
+      <a class="navbar-brand col-sm-1 col-md-2 mr-0" href="cerrar.php"> Cerrar Sesion </a>   
+       
     </nav>
 
 
@@ -48,7 +50,7 @@
 
         
         <A name="home"><h1 class="display-4 pb-5 pt-5 text-white ml-2 font-weight-bold"> Punto Digital</h1> </A> 
-        <h4 class="text-white ml-5" > </h4>
+        <h4 class="text-white ml-5" > </h4> 
         </section>
 
      
@@ -111,7 +113,7 @@
             <div class="col-sm-12 col-lg-4 "> 
                 <form>
                     <div class="form-group">
-                    <button type="submit" class="btn btn-primary custom-btn mt-1"><a href="https://www.google.com.ar">Enviar</button></a>
+                    <button type="submit" class="btn btn-primary custom-btn mt-1"><a href="../inscripcion-view.html">Enviar</button></a>
                   </div>
                 </form> 
             </div>

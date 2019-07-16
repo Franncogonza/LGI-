@@ -11,8 +11,9 @@ body{
 
 .contenedor{
     background: whitesmoke;
-    margin: 2% auto;
-    width: 100%;
+    margin: 5% auto;
+    width: 1300px;
+    height: 500px;
 }
 
 h1 {
@@ -21,14 +22,14 @@ h1 {
     font-size: 32px;
     padding-top: 2%;
     text-transform: uppercase;
-    color: #403b36;
+    color: #009DA8;
     
   }
   
   form {
     font-family: "Montserrat", sans-serif;
     width: 35%;
-    height: 50%;
+    height: 55%;
     background: #e8eee3;
     border: 1px solid #ccc;
     margin: 20px auto;

@@ -133,7 +133,7 @@
 					<p>Cabe remarcar que los Puntos Digitales forman parte de las políticas de inclusión tecnológica desarrolladas por el Ministerio de Modernización, a través del Plan País Digital</p> 
 				</div>
 
-				<br><hr></hr>	<br><br><br>
+				<br><hr>	<br><br><br>
 
   <!--=====================================
 	visor de fotos javascript

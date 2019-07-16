@@ -11,6 +11,7 @@
 <body>
 <div class="contenedor">
     <h1 class="titulo">Registrate </h1>
+    <a href="http://localhost/Lgi/login_registro/login.php" class="btn btn-default"><span class="icon-user"> Volver</a></span> 
 <hr class="border">
 
 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" class="formulario" name="login">

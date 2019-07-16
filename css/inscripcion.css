@@ -1,0 +1,56 @@
+
+body {
+    background: url(../img/muneco.jpg); 
+    background-repeat: no-repeat;
+    color: rgb(16, 19, 18);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+/*BOTON VOLVER*/
+
+.btn-default {
+	background-color: #FFFFFF60;
+	font-family: "Montserrat", sans-serif;
+    float: right;
+    margin:-8% 45%  auto;
+	
+	color: black ;
+   
+	padding: 14px 35px;
+	margin-bottom: 20%;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-color: #CCC	;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	background-color: white;
+	transition: all .6s;
+	color: #1e99d5;
+	display: inline-block;
+	padding: 16px 41px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}

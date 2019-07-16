@@ -12,8 +12,8 @@ body{
 .contenedor{
   background: whitesmoke;
   margin: 2% 2% 4% 2%;
-  width: 100%;
-  500px;
+  width: 1300px;
+  height: 500px;
 }
 
 h1 {

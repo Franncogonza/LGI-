@@ -10,17 +10,17 @@
     //validaciones en el formulario de solicitud de turno
           
         if(empty($nombre)){        // empty valida si el campo esta vacio
-            echo("*****Agrega tu nombre***** <br><br>");
+            echo("*****Agrega tu nombre y apellido***** <br><br>");
         }
         elseif(is_numeric($nombre)){ // si es un munero
-            echo "***** El nombre de estar compuesto por letras ***** <br><br>";
+            echo "***** El nombre y apellido de estar compuesto por letras ***** <br><br>";
         }
 
         if(empty($telefono)){        // empty valida si el campo esta vacio
-            echo("***** Agrega tu telefono ***** <br><br>");
+            echo("***** Agrega un curso ***** <br><br>");
         }
-        elseif(!is_numeric($telefono)){ // si no es un munero
-            echo "***** El telefono de estar compuesto por numeros ***** <br><br>";
+        elseif(is_numeric($telefono)){ // si no es un munero
+            echo "***** Ingrese un curso válido ***** <br><br>";
         }
 
         if(empty($correo)){        // empty valida si el campo esta vacio
@@ -74,15 +74,17 @@
     $pdf->SetFont('Arial','BU',16);
     $pdf->SetTextColor(25,175,194);
     $pdf->Sety(30);
-    $pdf->Cell(100,20,"SASTRERIA EL ELEGANTE",0,1,'C');
+    $pdf->Cell(100,20,"PUNTO DIGITAL FUNES",0,1,'C');
     $pdf->SetTextColor(0,0,0);
     $pdf->Setxy(50,70);
-    $pdf->Cell(100,20,"Comprobante de Solicitud de Turno",0,1,'C');
+    $pdf->Cell(100,20,"Comprobante de Inscripcion",0,1,'C');
     $pdf->SetFont('Arial','B',16);
     $pdf->Setxy(50,90);
     $pdf->Setxy(50,100);
     $pdf->Cell(100,20,"$nombre",1,1,'C');
-    $pdf->Setx(50);  
+    $pdf->Setx(50);
+    $pdf->Cell(100,20,"$telefono",1,1,'C'); 
+    $pdf->Setx(50); 
     $pdf->Cell(100,20,"$dia",1,1,'C'); 
     $pdf->Setx(50);
     $pdf->Cell(100,20,"$hora",1,1,'C');
@@ -90,6 +92,6 @@
     $pdf->Cell(100,20,"$random",1,1,'C'); 
     $pdf->Sety(200);
     $pdf->SetTextColor(165,22,22);
-    $pdf->Cell(100,20,"En breve confirmaremos su turno via email, conserve este comprobante.",0,1,'L');
+    $pdf->Cell(100,20,"Conserve este comprobante que debera ser presentado en Punto Digital",0,1,'L');
     $pdf->Output(); //Mostramos el PDF creado
 ?>
